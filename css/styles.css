@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "ptserif";
+    src: url("../fonts/ptserif.ttf");
+}
+
+@font-face {
+    font-family: "Quite Chocolatey";
+    src: url("../fonts/Quite\ Chocolatey.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.woff");
+}
+
+@font-face {
+    font-family: "Couture";
+    src: url("../fonts/couture-bld.otf");
+}
+
+@font-face {
+    font-family: "Mariad pro";
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header
+============*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page__header {
+    background-color: rgb(241, 131, 28);
+    background-image: url("../img/Layer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+
+}
+
+.content {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.page__logo > h2 {
+    font-family: "Quite Chocolatey";
+    font-size: 82px;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    margin: 70px 0 164px;
+}
+
+.page__headrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.page__navigation-item {
+    list-style-type: none;
+}
+
+.page__navigation-item > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+
+.page__navigation-item {
+    padding: 7px 15px;
+}
+
+.page__navigation-item:last-child {
+    margin-right: 0;
+}
+
+.page__navigation-item:hover {
+    background-color: #130e27;
+    border-radius: 5px;
+    }
+
+.page__navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.page__header-title h1 {
+    font-size: 87px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bolder;
+    line-height: 80px;
+    text-transform: uppercase;
+            letter-spacing: -0.015em;
+    margin-bottom: 33px;
+
+  }
+
+.page__header-title h1 span {
+    color: rgb(255, 255, 255);
+}
+
+.page__header-title {
+    max-width: 500px;
+    margin-left: 14px;
+}
+
+.page__header-text {
+    max-width: 470px;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    margin-left: 13px;
+    padding-bottom: 154px;
+}
+
+
+/* Main
+============ */
+
+
+.section__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section__card {
+    max-width: 175px;
+    text-align: center;
+}
+
+.section__title h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Couture";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    margin: 31px 0 0 8px;
+}
+
+.section__title h2 span {
+    color: #130e27;
+}
+
+.section__text p {
+    font-family: "ptserif";
+    font-size: 20px;
+    line-height: 28px;
+    color: #130e27;
+}
+
+.section__title {
+    margin-bottom: 88px;
+}
+
+/* Card
+==============*/
+
+.section__card {
+    margin-left: 8px;
+    padding-bottom: 37px;
+}
+
+.section__image {
+    margin-bottom: 36px;
+}
+
+
+/* About
+==============*/
+
+.about {
+    background-color: #130e27;
+}
+
+.about__field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__text {
+    font-size: 20px;
+    font-family: "ptserif";
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    color:rgb(255, 255, 255);
+    flex-basis: 650px;
+    padding: 28px 0 35px 13px;
+}
+
+
+
+.about__link a {
+    display: block;
+    width: 269px;
+    margin: 9px 16px 0 0;
+    padding: 18px 0;
+    background-color: #c62314;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    font-family: "Mariad pro";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+}
+
+
+
+/* --Pricing
+============== */
+  
+.pricing {
+    background-color: #efefef;
+}
+
+.pricing__row {
+    
+}
+
+.pricing__title h2 {
+        font-size: 50px;
+        font-family: "Montserrat";
+        color: rgb(19, 14, 39);
+        font-weight: bold;
+        line-height: 80px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 44px 0 36px;
+}
+
+.pricing__cardsrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.pricing__card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    flex-basis: 318px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing__plan {
+    font-size: 22px;
+    font-family: "PTSerif";
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+    margin: 30px 0 17px 0;
+}
+
+.pricing__price {
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-bottom: 7px;
+}
+
+.pricing__text {
+    font-size: 22px;
+    font-family: "PTSerif";
+    color: rgb(22, 22, 22);
+    line-height: 28px;
+}
+
+.pricing__link a {
+    display: block;
+    width: 205px;
+    margin: 29px auto 14px;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #130e27;
+    border-radius: 5px;
+    padding: 10px 0;
+
+}
+
+.colour a {
+    background-color: rgb(198, 35, 20);
+}
+
+.pricing__card {
+    margin-bottom: 61px;
+}
+
+
+
+/* Footer
+============== */
+
+.foot {
+    background-color: #130e27;
+}
+
+.foot__copyright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 77px 0 89px;
+}
+
+.foot__copyright-text {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    margin-left: -5px;
+}
+
+.foot__copyright-text span {
+    color: rgb(198, 35, 20);
+}
+
+.foot__copyright-logo {
+    font-family: "Quite Chocolatey";
+    font-size: 60px;
+    color: rgb(198, 35, 20);
+    line-height: 22px;
+    margin-top: 13px;
+}
+  
